@@ -41,7 +41,6 @@ namespace Hazel {
 	class HAZEL_API WindowCloseEvent : public Event{
 	
 	public:
-		WindowCloseEvent(){}
 		std::string ToString() const override {
 			std::stringstream ss;
 			ss << "WindowCloseEvent";
